@@ -444,7 +444,7 @@
 </ul>
 <p><br></p>
 <ul>
-<li><strong>Jarvis’ Example:</strong> <a href="https://github.com/jarvischen01/id529-regression-models" class="uri">https://github.com/jarvischen01/id529-regression-models</a>
+<li><strong>Jarvis’s Example:</strong> <a href="https://github.com/jarvischen01/id529-regression-models" class="uri">https://github.com/jarvischen01/id529-regression-models</a>
 <ul>
 <li>Working with regression models</li>
 <li>Integration of <code>gtsummary</code>, <code>sjPlot</code>, <code>stargazer</code>, and <code>ggstatsplot</code> in R Markdown</li>
@@ -652,8 +652,8 @@ There's a beauty in the *simplicity* of formatting text with `Markdown`! It's ca
 <div class="v-large">
 <pre><code>---
 title:  "Reproducible Research"
-author: "A prudent researcher"
-date:   "2024-01-16"
+author: "Your Name"
+date:   "2025-01-21"
 output: html_document
 ---</code></pre>
 </div>
@@ -675,8 +675,8 @@ output: html_document
 <div class="v-large">
 <pre><code>---
 title:  "Reproducible Research"
-author: "A prudent researcher"
-date:   "2024-01-16"
+author: "Your Name"
+date:   "2025-01-21" 
 output: 
   pdf_document: default
   html_document: default
@@ -691,6 +691,7 @@ output:
 <ul>
 <li>Indentation creates a hierarchy and structure for YAML header information</li>
 <li>Incorrect indentation will cause the YAML parser to fail when rendering the <code>.Rmd</code> file</li>
+<li>r Sys.Date() enclosed in ``</li>
 </ul></li>
 </ul>
 </section>
@@ -738,6 +739,8 @@ ___bold and italic___
 ~~strikethrough~~
 
 superscripts^2^
+
+subscripts~2~
 </code></pre>
 </div>
 </div><div class="column" style="width:50%;">
@@ -747,6 +750,7 @@ superscripts^2^
 <p><strong><em>bold and italic</em></strong> or <br> <strong><em>bold and italic</em></strong> <br><br></p>
 <p><del>strikethrough</del></p>
 <p>superscripts<sup>2</sup></p>
+<p>subscripts<sub>2</sub></p>
 </div>
 </div>
 </section>
@@ -1008,7 +1012,8 @@ superscripts^2^
 </div>
 
 <aside><div>
-<p><a href="https://yihui.org/knitr/options/">Comprehensive list of chunk options</a> <br> <a href="https://www.rstudio.com/wp-content/uploads/2015/03/rmarkdown-reference.pdf?_ga=2.49252896.746852327.1673881938-1383057973.1651956305">Knitr Chunk Options Reference</a></p>
+<!-- [Comprehensive list of chunk options](https://yihui.org/knitr/options/) <br> -->
+<p><a href="https://www.rstudio.com/wp-content/uploads/2015/03/rmarkdown-reference.pdf?_ga=2.49252896.746852327.1673881938-1383057973.1651956305">Knitr Chunk Options Reference</a></p>
 </div></aside></section>
 <section id="code-chunks-global-options" class="slide level2 smaller">
 <h2>Code chunks: Global options</h2>

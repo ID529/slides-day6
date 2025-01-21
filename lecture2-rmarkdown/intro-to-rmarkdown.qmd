@@ -55,7 +55,7 @@ Dean Marengi \| Tuesday, January 21<sup>st</sup>, 2025
 
 <br>
 
--   **Jarvis' Example:** <https://github.com/jarvischen01/id529-regression-models>
+-   **Jarvis's Example:** <https://github.com/jarvischen01/id529-regression-models>
     -   Working with regression models
     -   Integration of `gtsummary`, `sjPlot`, `stargazer`, and `ggstatsplot` in R Markdown
 
@@ -246,8 +246,8 @@ There are a lot of words and little details to keep track of when talking about 
 ````
 ---
 title:  "Reproducible Research"
-author: "A prudent researcher"
-date:   "2024-01-16"
+author: "Your Name"
+date:   "2025-01-21"
 output: html_document
 ---
 ````
@@ -270,8 +270,8 @@ output: html_document
 ````
 ---
 title:  "Reproducible Research"
-author: "A prudent researcher"
-date:   "2024-01-16"
+author: "Your Name"
+date:   "`r Sys.Date()`" 
 output: 
   pdf_document: default
   html_document: default
@@ -286,6 +286,7 @@ output:
 -   Note that the [indentation is meaningful]{.blue-bold} for YAML headers! 
     -   Indentation creates a hierarchy and structure for YAML header information
     -   Incorrect indentation will cause the YAML parser to fail when rendering the `.Rmd` file
+    -   r Sys.Date() enclosed in ``
 
 ## Markdown syntax: Headings {.smaller}
 
@@ -349,6 +350,8 @@ ___bold and italic___
 
 superscripts^2^
 
+subscripts~2~
+
 ````
 :::
 :::
@@ -365,6 +368,8 @@ superscripts^2^
 ~~strikethrough~~
 
 superscripts^2^
+
+subscripts~2~
 
 :::
 ::::
@@ -655,7 +660,7 @@ ggplot(data, aes(x = var1, y = var2)) +
 ::::
 
 ::: aside
-[Comprehensive list of chunk options](https://yihui.org/knitr/options/) <br>
+<!-- [Comprehensive list of chunk options](https://yihui.org/knitr/options/) <br> -->
 [Knitr Chunk Options Reference](https://www.rstudio.com/wp-content/uploads/2015/03/rmarkdown-reference.pdf?_ga=2.49252896.746852327.1673881938-1383057973.1651956305)
 :::
 
@@ -797,6 +802,7 @@ Installation details: <https://yihui.org/tinytex/>
 R Markdown gallery: <https://rmarkdown.rstudio.com/gallery.html>    
 Quarto gallery: <https://quarto.org/docs/gallery/>
 :::
+
 
 
 ## Resources {.smaller}
