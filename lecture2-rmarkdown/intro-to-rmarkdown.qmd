@@ -1,7 +1,8 @@
 ---
 format: 
   revealjs:
-    theme: [simple, ../../day2/lecture3-reading-in-data/custom.scss]
+    # theme: [simple, ../../day2/lecture3-reading-in-data/custom.scss]
+    theme: [simple, ../../slides-day5/lecture3-data-linkage-methods/custom.scss]
     highlight: pygments
     logo: images/id529-sticker.png
     slide-number: true
@@ -17,7 +18,7 @@ ID 529: Data Management and Analytic Workflows in R
 :::
 
 ::: {.white-12-pt}
-Dean Marengi \| Tuesday, January 16<sup>th</sup>, 2024
+Dean Marengi \| Tuesday, January 21<sup>th</sup>, 2025
 :::
 
 ## Learning objectives {.smaller}
@@ -744,7 +745,7 @@ TinyTex information: <https://bookdown.org/yihui/rmarkdown-cookbook/install-late
 Installation details: <https://yihui.org/tinytex/>
 :::
 
-# Let's look at an Rmd file in R Studio! {.white-title .white-code background-image="images/bg-no-planet.png" background-size="110% auto"}
+<!-- # Let's look at an Rmd file in R Studio! {.white-title .white-code background-image="images/bg-no-planet.png" background-size="110% auto"} -->
 
 ## Resources {.smaller}
 
