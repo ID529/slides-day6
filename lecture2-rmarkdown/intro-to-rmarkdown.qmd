@@ -794,7 +794,8 @@ Installation details: <https://yihui.org/tinytex/>
 ![](images/rmd-gallery.png){.absolute bottom="10%" left="15%" height="78%"}
 
 ::: aside
-**Access the R Markdown gallery here:** <https://rmarkdown.rstudio.com/gallery.html>
+R Markdown gallery: <https://rmarkdown.rstudio.com/gallery.html>    
+Quarto gallery: <https://quarto.org/docs/gallery/>
 :::
 
 
@@ -805,9 +806,9 @@ Installation details: <https://yihui.org/tinytex/>
 
 [Introductory Information]{.blue-bold}
 
--   **Overview and linked resources:** <https://pkgs.rstudio.com/rmarkdown/articles/rmarkdown.html> 
+-   **Overview and linked resources:** <https://pkgs.rstudio.com/rmarkdown/articles/rmarkdown.html>
 -   **Interactive Tutorial:** <https://rmarkdown.rstudio.com/lesson-1.html>
--   **HTML Rmd themes:** <https://www.datadreaming.org/post/r-markdown-theme-gallery/>
+<!-- -   **HTML Rmd themes:** <https://www.datadreaming.org/post/r-markdown-theme-gallery/> -->
 
 ::: {.small-break}
 :::
@@ -829,21 +830,3 @@ Installation details: <https://yihui.org/tinytex/>
 -   **r4ds - Quarto:** <https://r4ds.hadley.nz/quarto>
 
 
-<!-- # Let's look at an Rmd file in R Studio! {.white-title .white-code background-image="images/bg-no-planet.png" background-size="110% auto"} -->
-
-
-
-
-<!-- Introduction to R Markdown and the R Markdown syntax -->
-
-<!-- Importance of reproducibility in data analysis and the benefits of using R Markdown for reproducible reports -->
-
-<!-- Overview of the R Markdown document structure and formatting options -->
-
-<!-- Steps for creating an R Markdown document and integrating tables, visualizations, and inline-quantitative statements -->
-
-<!-- Tips for organizing and managing your R Markdown files and collaborating with others -->
-
-<!-- Case study: A worked example of using R Markdown to produce a reproducible report -->
-
-<!-- Conclusion and next steps for improving your R Markdown skills. -->
