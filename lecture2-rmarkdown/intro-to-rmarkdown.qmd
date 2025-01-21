@@ -556,6 +556,17 @@ https://id529.github.io
 
 ![](images/hex-rmarkdown.png){.absolute height="25%" right="45%" top="10%"}
 
+## R Markdown Visual Editor {.smaller}
+
+:::{.small-break}
+:::
+
+-   Alternatively, you can apply markdown formatting using the visual editor
+-   Drop down menu options for formatting
+    -   i.e., do not need to explicitly write markdown syntax
+
+![](images/rmd-visual-editor.png)
+
 ## Code chunks {.smaller}
 
 <br>
@@ -745,7 +756,47 @@ TinyTex information: <https://bookdown.org/yihui/rmarkdown-cookbook/install-late
 Installation details: <https://yihui.org/tinytex/>
 :::
 
-<!-- # Let's look at an Rmd file in R Studio! {.white-title .white-code background-image="images/bg-no-planet.png" background-size="110% auto"} -->
+
+## Helpful LaTeX Math Resources {.smaller}
+
+::: {.small-break}
+:::
+
+
+:::: {.columns}
+::: {.column width="50%"}
+
+**Overleaf:**
+
+-   Online editor for LaTeX typesetting
+-   Lots of resources and documentation for using LaTeX
+
+
+<br>
+
+**Tutorials:** 
+
+<https://www.overleaf.com/learn/latex/Tutorials>    
+
+:::
+:::
+
+:::: {.columns}
+::: {.column width="50%"}
+
+![](images/overleaf-tutorials.png)
+:::
+:::
+
+
+## R Markdown Gallery {.smaller}
+
+![](images/rmd-gallery.png){.absolute bottom="10%" left="15%" height="78%"}
+
+::: aside
+**Access the R Markdown gallery here:** <https://rmarkdown.rstudio.com/gallery.html>
+:::
+
 
 ## Resources {.smaller}
 
@@ -776,6 +827,10 @@ Installation details: <https://yihui.org/tinytex/>
 -   **R Markdown Definitive Guide:** <https://bookdown.org/yihui/rmarkdown/>
 -   **R Markdown Cookbook:** <https://bookdown.org/yihui/rmarkdown-cookbook/>
 -   **r4ds - Quarto:** <https://r4ds.hadley.nz/quarto>
+
+
+<!-- # Let's look at an Rmd file in R Studio! {.white-title .white-code background-image="images/bg-no-planet.png" background-size="110% auto"} -->
+
 
 
 
