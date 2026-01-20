@@ -837,3 +837,6 @@ Quarto gallery: <https://quarto.org/docs/gallery/>
 -   **r4ds - Quarto:** <https://r4ds.hadley.nz/quarto>
 
 
+## Example Report {.smaller}
+
+Clone repo: <https://github.com/dmarengi/sample-rmd>
