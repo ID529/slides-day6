@@ -28,6 +28,13 @@ Here, we illustrate how the `gtsummary`, `sjPlot`, `stargazer`, and `ggstatsplot
 
 This example uses the NHANES dataset and the linear and logistic regression models that we looked at on Day 4.
 
+# Models
+
+As we discussed last week, we are fitting a bunch of regression models, of the form
+\[ Y_{i} = \beta_0 + \beta_1 X_{1i} + \beta_2 X_{2i} + \dots + \beta_p X_{pi} + \epsilon_{i} \]
+
+From the model objects, we want to extract estimates of parameters, $\widehat{\beta}$, and associated 95% confidence intervals.
+
 # Setting up the data and fitting linear and logistic regression models to use as examples
 
 ```{r datacleaning}
