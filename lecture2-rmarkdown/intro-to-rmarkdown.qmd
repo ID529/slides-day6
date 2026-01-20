@@ -18,7 +18,7 @@ ID 529: Data Management and Analytic Workflows in R
 :::
 
 ::: {.white-12-pt}
-Dean Marengi \| Tuesday, January 21<sup>st</sup>, 2025
+Dean Marengi \| Tuesday, January 20<sup>th</sup>, 2026
 :::
 
 ## Learning objectives {.smaller}
@@ -247,7 +247,7 @@ There are a lot of words and little details to keep track of when talking about 
 ---
 title:  "Reproducible Research"
 author: "Your Name"
-date:   "2025-01-21"
+date:   "2026-01-20"
 output: html_document
 ---
 ````
@@ -551,12 +551,13 @@ https://id529.github.io
 
 ::: {.larger}
 ````
-![](https://i0.wp.com/johnmackintosh.net/assets/img/blog/20220921-padme.jpeg)
+![](https://i.redd.it/amvp629onu6e1.jpeg)
+
 ````
 :::
 
 
-![](https://i0.wp.com/johnmackintosh.net/assets/img/blog/20220921-padme.jpeg?w=578&ssl=1){.absolute height="50%" right=40% bottom="0%"}
+![](https://i.redd.it/amvp629onu6e1.jpeg){.absolute height="50%" right=40% bottom="0%"}
 
 
 ![](images/hex-rmarkdown.png){.absolute height="25%" right="45%" top="10%"}
