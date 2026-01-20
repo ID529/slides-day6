@@ -35,6 +35,32 @@ As we discussed last week, we are fitting a bunch of regression models, of the f
 
 From the model objects, we want to extract estimates of parameters, $\widehat{\beta}$, and associated 95% confidence intervals.
 
+We're not going to fit this kind of model here, but do you like aligned math text?
+
+\begin{aligned}
+Y_{it} 
+&= (\beta_0 + u_{0i}) + (\beta_1 + u_{1i})\, \text{time}_t + \epsilon_{it} \\
+
+\begin{bmatrix}
+u_{0i} \\
+u_{1i}
+\end{bmatrix}
+&\sim MVN \!\left(
+\begin{bmatrix}
+0 \\
+0
+\end{bmatrix},
+\begin{bmatrix}
+\sigma^2_{u_0} & \sigma_{u_0 u_1} \\
+\sigma_{u_0 u_1} & \sigma^2_{u_1}
+\end{bmatrix}
+\right) \\
+
+\epsilon_{it}
+&\sim N(0, \sigma^2_{\epsilon})
+\end{aligned}
+
+
 # Setting up the data and fitting linear and logistic regression models to use as examples
 
 ```{r datacleaning}
